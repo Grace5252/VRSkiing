@@ -16,4 +16,8 @@ public:
 	//Create text file with content
 	UFUNCTION(BlueprintCallable, Category = "1 - Read Write File")
 		static void WriteStringToFile(FString filePath, FString String, bool& bOutSuccess, FString& OutInfoMessage);
+
+	//Appent content to text file
+	UFUNCTION(BlueprintCallable, Category = "1 - Read Write File")
+		static void AppendStringToFile(FString filePath, FString String, bool& bOutSuccess, FString& OutInfoMessage);
 };

@@ -34,3 +34,31 @@ void U_1_ReadWriteFile::WriteStringToFile(FString filePath, FString string, bool
 	bOutSuccess = true;
 	outInfoMessage = FString::Printf(TEXT("Write success"));
 }
+
+void U_1_ReadWriteFile::AppendStringToFile(FString filePath, FString string, bool& bOutSuccess, FString& outInfoMessage) {
+	if (!FPlatformFileManager::Get().GetPlatformFile().FileExists(*filePath)) {
+		bOutSuccess = false;
+		outInfoMessage = FString::Printf(TEXT("Read String from File failed, file doesnt exist - '%s'"), *filePath);
+	}
+
+	FString RetString = "";
+
+	if (!FFileHelper::LoadFileToString(RetString, *filePath)) {
+		bOutSuccess = false;
+		outInfoMessage = FString::Printf(TEXT("Read string from file failed, was not able to read file - '%s'"), *filePath);
+	}
+	
+	if (RetString != "") {
+		RetString += "\n";
+	}
+	RetString = RetString + string;
+
+	if (!FFileHelper::SaveStringToFile(RetString, *filePath)) {
+		bOutSuccess = false;
+		outInfoMessage = FString::Printf(TEXT("Write string to file failed - '%s'"), *filePath);
+		return;
+	}
+
+	bOutSuccess = true;
+	outInfoMessage = FString::Printf(TEXT("Write success"));
+}

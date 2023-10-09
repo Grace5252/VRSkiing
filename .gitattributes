@@ -1,2 +1,4 @@
 # Auto detect text files and perform LF normalization
+Content/PN_interactiveSpruceForest/Textures/MasterTextures/ModelTextures/Bark_N.uasset filter=lfs
+*.uasset -filter=lfs
 * text=auto

@@ -172,6 +172,10 @@
 			"type": "boolean"
 		},
 		{
+			"name": "/actions/main/in/Select",
+			"type": "boolean"
+		},
+		{
 			"name": "/actions/main/in/MovementAxisLeft_X,MovementAxisLeft_Y X Y_axis2d",
 			"type": "vector2"
 		},
@@ -466,6 +470,7 @@
 			"/actions/main/in/TriggerRight": "TriggerRight",
 			"/actions/main/in/MenuToggleLeft": "MenuToggleLeft",
 			"/actions/main/in/MenuToggleRight": "MenuToggleRight",
+			"/actions/main/in/Select": "Select",
 			"/actions/main/in/MovementAxisLeft_X,MovementAxisLeft_Y X Y_axis2d": "MovementAxisLeft",
 			"/actions/main/in/GrabAxisLeft axis": "GrabAxisLeft",
 			"/actions/main/in/TriggerAxisLeft axis": "TriggerAxisLeft",

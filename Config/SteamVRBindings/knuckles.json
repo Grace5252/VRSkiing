@@ -85,6 +85,28 @@
 					}
 				},
 				{
+					"mode": "button",
+					"path": "/user/hand/right/input/a",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/Select"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/left/input/a",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/Select"
+						}
+					}
+				},
+				{
 					"mode": "force_sensor",
 					"path": "/user/hand/left/input/grip",
 					"inputs":

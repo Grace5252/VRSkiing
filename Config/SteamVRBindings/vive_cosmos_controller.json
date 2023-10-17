@@ -6,30 +6,7 @@
 	{
 		"/actions/main":
 		{
-			"sources": [
-				{
-					"mode": "button",
-					"path": "/user/hand/right/input/a",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/Select"
-						}
-					}
-				},
-				{
-					"mode": "button",
-					"path": "/user/hand/left/input/x",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/Select"
-						}
-					}
-				}
-			],
+			"sources": [],
 			"poses": [
 				{
 					"output": "/actions/main/in/controllerleft",

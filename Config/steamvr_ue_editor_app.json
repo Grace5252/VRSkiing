@@ -5,7 +5,7 @@
 			"app_key": "application.generated.ue.vrskiing-20979098.unrealeditor.exe",
 			"launch_type": "url",
 			"url": "steam://launch/",
-			"action_manifest_path": "C:/Users/Sam/Documents/GitHub/VRSkiing/Config/SteamVRBindings/steamvr_manifest.json",
+			"action_manifest_path": "C:/Users/Matthew/Documents/GitHub/VRSkiing/Config/SteamVRBindings/steamvr_manifest.json",
 			"strings":
 			{
 				"en_us":

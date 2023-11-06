@@ -156,11 +156,7 @@
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/main/in/TriggerLeft",
-			"type": "boolean"
-		},
-		{
-			"name": "/actions/main/in/TriggerRight",
+			"name": "/actions/main/in/Handbrake",
 			"type": "boolean"
 		},
 		{
@@ -172,23 +168,19 @@
 			"type": "boolean"
 		},
 		{
+			"name": "/actions/main/in/TriggerLeft",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/TriggerRight",
+			"type": "boolean"
+		},
+		{
 			"name": "/actions/main/in/Select",
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/main/in/MovementAxisLeft_X,MovementAxisLeft_Y X Y_axis2d",
-			"type": "vector2"
-		},
-		{
 			"name": "/actions/main/in/GrabAxisLeft axis",
-			"type": "vector1"
-		},
-		{
-			"name": "/actions/main/in/TriggerAxisLeft axis",
-			"type": "vector1"
-		},
-		{
-			"name": "/actions/main/in/TriggerAxisRight axis",
 			"type": "vector1"
 		},
 		{
@@ -196,11 +188,27 @@
 			"type": "vector1"
 		},
 		{
-			"name": "/actions/main/in/SpectatorYaw axis",
+			"name": "/actions/main/in/LookRight axis",
 			"type": "vector1"
 		},
 		{
-			"name": "/actions/main/in/SpectatorPitch axis",
+			"name": "/actions/main/in/LookUp axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/MoveForward axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/MovementAxisLeft_X,MovementAxisLeft_Y X Y_axis2d",
+			"type": "vector2"
+		},
+		{
+			"name": "/actions/main/in/MovementAxisRight_X,MovementAxisRight_Y X Y_axis2d",
+			"type": "vector2"
+		},
+		{
+			"name": "/actions/main/in/MoveRight axis",
 			"type": "vector1"
 		},
 		{
@@ -220,8 +228,20 @@
 			"type": "vector1"
 		},
 		{
-			"name": "/actions/main/in/MovementAxisRight_X,MovementAxisRight_Y X Y_axis2d",
-			"type": "vector2"
+			"name": "/actions/main/in/SpectatorPitch axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/SpectatorYaw axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/TriggerAxisLeft axis",
+			"type": "vector1"
+		},
+		{
+			"name": "/actions/main/in/TriggerAxisRight axis",
+			"type": "vector1"
 		}
 	],
 	"action_sets": [
@@ -466,23 +486,28 @@
 			"/actions/main/in/open_console": "Open Console",
 			"/actions/main/in/GrabLeft": "GrabLeft",
 			"/actions/main/in/GrabRight": "GrabRight",
-			"/actions/main/in/TriggerLeft": "TriggerLeft",
-			"/actions/main/in/TriggerRight": "TriggerRight",
+			"/actions/main/in/Handbrake": "Handbrake",
 			"/actions/main/in/MenuToggleLeft": "MenuToggleLeft",
 			"/actions/main/in/MenuToggleRight": "MenuToggleRight",
+			"/actions/main/in/TriggerLeft": "TriggerLeft",
+			"/actions/main/in/TriggerRight": "TriggerRight",
 			"/actions/main/in/Select": "Select",
-			"/actions/main/in/MovementAxisLeft_X,MovementAxisLeft_Y X Y_axis2d": "MovementAxisLeft",
 			"/actions/main/in/GrabAxisLeft axis": "GrabAxisLeft",
-			"/actions/main/in/TriggerAxisLeft axis": "TriggerAxisLeft",
-			"/actions/main/in/TriggerAxisRight axis": "TriggerAxisRight",
 			"/actions/main/in/GrabAxisRight axis": "GrabAxisRight",
-			"/actions/main/in/SpectatorYaw axis": "SpectatorYaw",
-			"/actions/main/in/SpectatorPitch axis": "SpectatorPitch",
+			"/actions/main/in/LookRight axis": "LookRight",
+			"/actions/main/in/LookUp axis": "LookUp",
+			"/actions/main/in/MoveForward axis": "MoveForward",
+			"/actions/main/in/MovementAxisLeft_X,MovementAxisLeft_Y X Y_axis2d": "MovementAxisLeft",
+			"/actions/main/in/MovementAxisRight_X,MovementAxisRight_Y X Y_axis2d": "MovementAxisRight",
+			"/actions/main/in/MoveRight axis": "MoveRight",
 			"/actions/main/in/SpectatorFOV axis": "SpectatorFOV",
 			"/actions/main/in/SpectatorMoveForward axis": "SpectatorMoveForward",
 			"/actions/main/in/SpectatorMoveRight axis": "SpectatorMoveRight",
 			"/actions/main/in/SpectatorMoveUp axis": "SpectatorMoveUp",
-			"/actions/main/in/MovementAxisRight_X,MovementAxisRight_Y X Y_axis2d": "MovementAxisRight",
+			"/actions/main/in/SpectatorPitch axis": "SpectatorPitch",
+			"/actions/main/in/SpectatorYaw axis": "SpectatorYaw",
+			"/actions/main/in/TriggerAxisLeft axis": "TriggerAxisLeft",
+			"/actions/main/in/TriggerAxisRight axis": "TriggerAxisRight",
 			"/actions/main": "Main Game Actions"
 		}
 	]

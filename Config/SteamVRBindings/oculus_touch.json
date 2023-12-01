@@ -30,6 +30,28 @@
 					}
 				},
 				{
+					"mode": "trigger",
+					"path": "/user/hand/left/input/trigger",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/TriggerLeft"
+						}
+					}
+				},
+				{
+					"mode": "trigger",
+					"path": "/user/hand/right/input/trigger",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/TriggerRight"
+						}
+					}
+				},
+				{
 					"mode": "joystick",
 					"path": "/user/hand/left/input/joystick",
 					"inputs":
@@ -64,34 +86,12 @@
 				},
 				{
 					"mode": "trigger",
-					"path": "/user/hand/left/input/trigger",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/TriggerLeft"
-						}
-					}
-				},
-				{
-					"mode": "trigger",
 					"path": "/user/hand/right/input/trigger",
 					"inputs":
 					{
 						"click":
 						{
-							"output": "/actions/main/in/TriggerRight"
-						}
-					}
-				},
-				{
-					"mode": "trigger",
-					"path": "/user/hand/left/input/grip",
-					"inputs":
-					{
-						"pull":
-						{
-							"output": "/actions/main/in/GrabAxisLeft axis"
+							"output": "/actions/main/in/Select"
 						}
 					}
 				},
@@ -100,9 +100,31 @@
 					"path": "/user/hand/right/input/grip",
 					"inputs":
 					{
-						"pull":
+						"click":
 						{
-							"output": "/actions/main/in/GrabAxisRight axis"
+							"output": "/actions/main/in/Select"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/right/input/a",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/Select"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/left/input/x",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/Select"
 						}
 					}
 				},
@@ -118,13 +140,13 @@
 					}
 				},
 				{
-					"mode": "joystick",
-					"path": "/user/hand/right/input/joystick",
+					"mode": "trigger",
+					"path": "/user/hand/left/input/grip",
 					"inputs":
 					{
-						"position":
+						"pull":
 						{
-							"output": "/actions/main/in/MovementAxisRight_X,MovementAxisRight_Y X Y_axis2d"
+							"output": "/actions/main/in/GrabAxisLeft axis"
 						}
 					}
 				},
@@ -147,6 +169,28 @@
 						"pull":
 						{
 							"output": "/actions/main/in/TriggerAxisRight axis"
+						}
+					}
+				},
+				{
+					"mode": "trigger",
+					"path": "/user/hand/right/input/grip",
+					"inputs":
+					{
+						"pull":
+						{
+							"output": "/actions/main/in/GrabAxisRight axis"
+						}
+					}
+				},
+				{
+					"mode": "joystick",
+					"path": "/user/hand/right/input/joystick",
+					"inputs":
+					{
+						"position":
+						{
+							"output": "/actions/main/in/MovementAxisRight_X,MovementAxisRight_Y X Y_axis2d"
 						}
 					}
 				}
